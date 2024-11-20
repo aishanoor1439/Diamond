@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond</title>
+
+    <script>
+        
+        // triangle
+        // line break + no of rows
+        for (a = 1; a <=10; a++) {
+            var c = "<br>";
+          
+        // spaces
+            for (d = 1; d <= 10 - a; d++) {
+              c += "&nbsp;&nbsp;";
+            }
+          
+        // asterisks 
+            for (b = 1; b <= 2 * a - 1; b++) {
+              c += '*';
+            }
+          
+          document.write(c);
+          }
+    
+        // inverted triangle
+        // line break + no of rows
+        for (e = 10; e >=1; e--) {
+            var g = "<br>";
+          
+        // spaces
+            for (h = 1; h <= 10 - e; h++) {
+              g += "&nbsp;&nbsp;";
+            }
+          
+        // asterisks 
+            for (f = 1; f <= 2 * e - 1; f++) {
+              g += '*';
+            }
+          
+          document.write(g);
+          }
+    
+        </script>
+    
+</head>
+<body>
+</body>
+</html>
